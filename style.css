@@ -1,0 +1,49 @@
+body {
+  border: 5px solid black;
+  font-family: sans-serif;
+  line-height: 1.5;
+}
+h2 {
+  font-size: 28px;
+  text-transform: uppercase;
+  text-align: center;
+}
+.main-header {
+  background-color: #f7f7f7;
+}
+.price {
+  font-size: 24px;
+}
+.delivery {
+  font-size: 12px;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #777;
+}
+/* must always specify all the 4 states and always in this order  */
+a:link,
+a:visited {
+  color: black;
+}
+a:hover,
+a:active {
+  text-decoration: none;
+}
+.details-title {
+  text-transform: uppercase;
+}
+.details-list {
+  list-style: square;
+}
+.cart-button {
+  font-size: 24px;
+  text-transform: uppercase;
+  background-color: black;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+.cart-button:hover {
+  color: #000;
+  background-color: white;
+}
