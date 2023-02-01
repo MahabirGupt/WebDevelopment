@@ -1,15 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+}
 body {
-  border: 5px solid black;
   font-family: sans-serif;
   line-height: 1.5;
+}
+.container {
+  width: 825px;
+  margin: 50px auto;
+}
+.border {
+  border: 5px solid black;
 }
 h2 {
   font-size: 28px;
   text-transform: uppercase;
   text-align: center;
+  padding: 10px;
 }
 .main-header {
   background-color: #f7f7f7;
+  /* margin-top: 20px; */
 }
 .price {
   font-size: 24px;
@@ -19,6 +31,10 @@ h2 {
   text-transform: uppercase;
   font-weight: bold;
   color: #777;
+  margin-bottom: 20px;
+}
+.description {
+  margin-bottom: 10px;
 }
 /* must always specify all the 4 states and always in this order  */
 a:link,
@@ -31,17 +47,33 @@ a:active {
 }
 .details-title {
   text-transform: uppercase;
+  margin-top: 30px;
+  margin-bottom: 15px;
 }
 .details-list {
   list-style: square;
+  padding-left: 20px;
+}
+li {
+  margin-bottom: 10px;
+}
+.button-container {
+  margin: 0 auto;
+  border: black;
 }
 .cart-button {
-  font-size: 24px;
+  width: 100%;
+  margin: 0 auto;
+  font-size: 20px;
   text-transform: uppercase;
   background-color: black;
   color: white;
   border: none;
   cursor: pointer;
+  text-align: center;
+  font-family: sans-serif;
+  padding: 20px;
+  border-top: 5px solid black;
 }
 .cart-button:hover {
   color: #000;
