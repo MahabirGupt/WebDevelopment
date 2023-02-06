@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 body {
   font-family: sans-serif;
@@ -22,9 +23,11 @@ h2 {
 .main-header {
   background-color: #f7f7f7;
   /* margin-top: 20px; */
+  position: relative;
 }
 .price {
   font-size: 24px;
+  position: relative;
 }
 .delivery {
   font-size: 12px;
@@ -32,9 +35,19 @@ h2 {
   font-weight: bold;
   color: #777;
   margin-bottom: 20px;
+  position: absolute;
+  margin-top: -25px;
+  /* margin-right: 900px; */
+  margin-left: 180px;
+  display: inline-block;
 }
+/* .product-description {
+  display: inline-block;
+} */
 .description {
+  margin-top: 20px;
   margin-bottom: 10px;
+  display: inline-block;
 }
 /* must always specify all the 4 states and always in this order  */
 a:link,
@@ -63,6 +76,7 @@ li {
 .button-container {
   margin: 0 auto;
   border: black;
+  margin-top: 20px;
 }
 .cart-button {
   width: 100%;
@@ -157,4 +171,20 @@ ul {
   position: absolute;
   bottom: -65px;
   left: 55px;
+}
+/* .image {
+} */
+.product {
+  position: absolute;
+  /* float: right; */
+  margin-top: -250px;
+  margin-left: 300px;
+  width: 280px;
+  position: relative;
+}
+.product-details {
+  width: 200px;
+  /* position: absolute; */
+  margin-top: -230px;
+  margin-left: 600px;
 }
